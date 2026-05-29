@@ -32,4 +32,6 @@ import java.util.Scanner
 Scanner scanner = new Scanner(System.in).useLocale(Locale.BR)
 
 int idade = scanner.nextInt();
-String nome = scanner.next();
+String nome = scanner.nextLine();
+
+scanner.next();
