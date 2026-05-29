@@ -25,3 +25,11 @@ tem uma classe x{
     } //somente y será visivel do lado de fora pois foi declarada dentro da classe, enquanto x foi declarado dentro do escopo do fluxo do for
     return y;
 }
+
+import java.util.Locale
+import java.util.Scanner
+
+Scanner scanner = new Scanner(System.in).useLocale(Locale.BR)
+
+int idade = scanner.nextInt();
+String nome = scanner.next();
