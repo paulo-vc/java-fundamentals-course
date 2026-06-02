@@ -36,7 +36,7 @@ public void tomarDano(int dano){
 }
 
 /*
-Não se da para criar classe privada no topo do arquivo, mas você pode criar uma classe privada de ntro de outra classe.
+Não se da para criar classe privada no topo do arquivo, mas você pode criar uma classe privada dentro de outra classe.
 
 Agora se o método tomarDano fosse static aí ele pertenceria a classe como um todo e não ao jogador número 1 específico.
 
